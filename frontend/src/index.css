@@ -6,6 +6,10 @@
   position: relative;
   bottom: -50px;
 }
+.negative-margin-top-img {
+  position: relative;
+  top: -90px;
+}
 
 /* Appliquer à toutes les cartes */
 .card-large {
