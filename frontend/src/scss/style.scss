@@ -1,6 +1,7 @@
 @use "../node_modules/bootstrap/scss/bootstrap" with (
   $primary: #6E07F3,
-  $secondary: #5BE9B9
+  $secondary: #5BE9B9,
+  $danger: #141C3A
 );
 
 .negative-margin-top {
