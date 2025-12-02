@@ -1,3 +1,7 @@
+
+
+
+
 .negative-margin-top {
   position: relative;
   top: -100px;
@@ -11,20 +15,21 @@
   top: -90px;
 }
 
-/* Appliquer à toutes les cartes */
+
 .card-large {
   min-height: 200px;   
-  min-width: 350px;      /* Hauteur minimale */
-  padding: 1.5rem;           /* Plus de contenu respirable */
-  font-size: 1rem;           /* Texte légèrement agrandi */
+  min-width: 350px;     
+  padding: 1.5rem;          
+  font-size: 1rem;           
   display: flex;
   flex-direction: column;
-  justify-content: center;   /* Centrage vertical du contenu */
+  justify-content: center;   
 }
 
-/* Responsive : sur mobile, les cartes prennent plus de largeur */
+
 @media (max-width: 768px) {
   .card-large {
     width: 90% !important;
   }
 }
+
