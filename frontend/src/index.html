@@ -4,15 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Noah</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link href="index.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css"
+     
   </head>
   <body>
     <div class="container-fluid" id="navbar">
@@ -49,7 +44,7 @@
             <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a
-                  class="nav-link fw-bold pe-5"
+                  class="nav-link pe-5"
                   aria-current="page"
                   href="#project"
                   >Mes projets</a
@@ -111,7 +106,7 @@
             <div class="col border-end">
               <img
                 src="./assets/code.svg"
-                class="img-fluid m-5 bg-success rounded"
+                class="img-fluid m-5 bg-secondary rounded"
                 width="60"
                 height="60"
               />
@@ -133,7 +128,7 @@
             <div class="col border-end">
               <img
                 src="./assets/code.svg"
-                class="img-fluid m-5 bg-success rounded"
+                class="img-fluid m-5 bg-secondary rounded"
                 width="60"
                 height="60"
               />
@@ -155,7 +150,7 @@
             <div class="col">
               <img
                 src="./assets/code.svg"
-                class="img-fluid m-5 bg-success rounded"
+                class="img-fluid m-5 bg-secondary rounded"
                 width="60"
                 height="60"
               />
@@ -188,7 +183,7 @@
 
       <div class="row text-center">
         <div class="col-md-4 mb-4">
-          <div class="p-4 border rounded shadow-sm bg-light">
+          <div class="p-4 border rounded shadow-sm bg-secondary">
             <div class="mb-3">
               <i class="bi bi-people-fill fs-1 text-primary"></i>
             </div>
@@ -200,21 +195,21 @@
         </div>
 
         <div class="col-md-4 mb-4">
-          <div class="p-4 border rounded shadow-sm bg-light">
+          <div class="p-4 border rounded shadow-sm bg-primary">
             <div class="mb-3">
-              <i class="bi bi-diagram-3-fill fs-1 text-success"></i>
+              <i class="bi bi-diagram-3-fill fs-1 text-secondary"></i>
             </div>
-            <h5><strong>5</strong> projets effectués</h5>
-            <p class="text-muted">
+            <h5 class="text-white"><strong>5</strong> projets effectués</h5>
+            <p class=" text-white">
               Développement web, systéme embarqué et jeu vidéo
             </p>
           </div>
         </div>
 
         <div class="col-md-4 mb-4">
-          <div class="p-4 border rounded shadow-sm bg-light">
+          <div class="p-4 border rounded shadow-sm bg-secondary">
             <div class="mb-3">
-              <i class="bi bi-clock-history fs-1 text-warning"></i>
+              <i class="bi bi-clock-history fs-1 text-primary"></i>
             </div>
             <h5><strong>+200</strong> heures de formation</h5>
             <p class="text-muted">
@@ -343,6 +338,6 @@
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
